@@ -26,7 +26,7 @@
         <h1>Hi, I'm Anh Ngo</h1>
         <hr>
         <p>Software Engineer</p>
-        <button>Let's chat!</button>
+        <a href="#contact"><button>Let's chat!</button></a>
 
     </header>
     <main>
@@ -121,7 +121,20 @@
         </section>
         <section id="contact">
             <h2>Contact</h2>
+            <!-- TODO: update URL -->
+            <form action="https://www.to-be-fixed.com/" method="post">
+                <label for="name">Name</label>
+                <p><input type="text" id="name" name="name" placeholder="How should I address you?"></p>
 
+                <label for="email">Email</label>
+                <p><input type="email" id="email" name="email" placeholder="Which email works best for you?"></p>
+
+                <label for="message">Message</label>
+                <p><textarea id="message" name="message" rows="10" cols="50"
+                        placeholder="What might we talk about?"></textarea></p>
+
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </main>
 
