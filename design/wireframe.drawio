@@ -49,6 +49,9 @@
                 <mxCell id="fdsGpVqOOZHaJVT-IuXQ-29" value="GitHub" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" parent="27" vertex="1">
                     <mxGeometry x="1337" y="100" width="117" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="lQ4-mu31b5j6ym0fMz4d-28" value="Inspired by&amp;nbsp;https://khoa165.com/&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="1248" y="860" width="290" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
@@ -137,10 +140,10 @@
                 <mxCell id="kQ67XMeGOrk2VQ6HgAwb-10" value="Experience" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;align=center;" vertex="1" parent="kQ67XMeGOrk2VQ6HgAwb-9">
                     <mxGeometry x="217" y="120" width="1040" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="kQ67XMeGOrk2VQ6HgAwb-12" value="Experience 1&lt;br&gt;Company/ Organization | Description&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; |&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; |" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="kQ67XMeGOrk2VQ6HgAwb-9">
+                <mxCell id="kQ67XMeGOrk2VQ6HgAwb-12" value="Experience 1&lt;br&gt;Company/ Organization | Description" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="kQ67XMeGOrk2VQ6HgAwb-9">
                     <mxGeometry x="217.5" y="220" width="1040" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="kQ67XMeGOrk2VQ6HgAwb-15" value="Experience 2&lt;br&gt;Company/ Organization | Description&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;br&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="kQ67XMeGOrk2VQ6HgAwb-9">
+                <mxCell id="kQ67XMeGOrk2VQ6HgAwb-15" value="Experience 2&lt;br&gt;Company/ Organization | Description" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="kQ67XMeGOrk2VQ6HgAwb-9">
                     <mxGeometry x="217.5" y="440" width="1040" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="kQ67XMeGOrk2VQ6HgAwb-13" value="LinkedIn" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
