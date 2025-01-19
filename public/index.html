@@ -24,19 +24,303 @@
     -->
   <!-- <script defer src="/__/firebase/init.js?useEmulator=true"></script> -->
 
-  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-  <link rel="manifest" href="../site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://github.com/anhngoq" target="_blank">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/anh-ngo-q/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </nav>
+    <h1>Hi, I'm Anh Ngo</h1>
+    <p>Software Engineer</p>
+    <a href="#contact"><button>Let's chat!</button></a>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <!-- TODO: add a real picture of myself -->
+      <img
+        src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairBigHair&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Happy&eyebrowType=Default&mouthType=Twinkle&skinColor=Light'>
 
+      <!-- TODO: add a more detailed introduction -->
+      <p>I'm a sophomore at Rose-Hulman Institute of Technology, majoring in Computer Science.</p>
 
+    </section>
+    <section id="experience">
+      <!-- TODO: add separate sections for key contributions, projects, and technology used -->
+      <!-- TODO: add a short summary of responsibilities -->
+      <h2>Experience</h2>
+      <section>
+        <h3>Research Assistant</h3>
+        <p>Rose-Hulman Institute of Technology</p>
+        <p>Terre Haute, IN</p>
+        <p>June 2024 - Present</p>
+        <ul>
+          <li>Collaborate with a Computer Science faculty to explore struggles that students face when
+            learning to code</li>
+          <li>Automate the capture of students’ JUnit test results, modularize code, and reduce coupling by
+            leveraging AspectJ aspect-oriented programming</li>
+          <li>Ensure consistent data collection by configuring GitHub Classroom repositories integration with
+            AspectJ</li>
+          <li>Analyze test results to provide actionable insights on students’ learning behavior</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Software Engineer Intern</h3>
+        <p>TAPTAP Vietnam</p>
+        <p>Ho Chi Minh City, Vietnam</p>
+        <p>June 2024 - August 2024</p>
+        <ul>
+          <li>Cooperated as a team of 3 in a startup offering cutting-edge loyalty solutions for businesses,
+            backed by Vietnam Investment Group, a private equity firm, and United Overseas Bank</li>
+          <li>Delivered 12 new features and addressed 7 bugs for internal tools across both the front end and
+            back end</li>
+          <li>Enhanced efficiency in managing end users, enabling faster action management operations through
+            responsive pages built with React, Nest.js, Node.js, and MongoDB</li>
+          <li>Secured sensitive data by preventing over 50 unauthorized access incidents over 1 month through
+            a role-based access control layer for user authorization</li>
+          <li>Integrated Telegram bots and cron jobs to alert critical events within 1 second, facilitating
+            fast responses to vouchers and top-ups redemption threshold breaches with alert frequency of 1
+            per hour</li>
+          <li>Facilitated decision-making and data clarity by visualizing and aggregating over 500 vouchers
+            and top-ups with trends over time with ApexCharts in dedicated interactive dashboard</li>
+        </ul>
+      </section>
 
+    </section>
+    <section id="projects">
+      <!-- TODO: add more projects, perhaps links to source code/deployment as well -->
+      <h2>Projects</h2>
+      <section>
+        <h3>Genetics Algorithm Visualization</h3>
+        <ul>
+          <li>Developed an evolution simulator to reproduce the result of “How Learning Can Guide Evolution”
+            by Hinton & Nowlan</li>
+          <li>Visualized a randomized population of 100 individuals’ real-time evolution data with a graphical
+            user interface</li>
+          <li>Ensured effective communication and efficient problem solving by proactively participating in
+            group discussions</li>
+          <li>Maximized code modularity and clarity by adhering to object-oriented design principles and pair
+            programming practice</li>
+        </ul>
+      </section>
 
+    </section>
+    <section id="skills">
+      <!-- TODO: fill out skills that I have -->
+      <h2>Skills</h2>
+      <section>
+        <h3>Programming Languages</h3>
+        <ul>
+          <li>Java</li>
+          <li>Python</li>
+          <li>C</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
 
+      </section>
+      <section>
+        <h3>Frameworks and Libraries</h3>
+      </section>
+      <!-- <section>
+            <h3>Front End</h3>
 
+        </section>
+        <section>
+            <h3>Back End</h3>
+
+        </section> -->
+      <section>
+        <h3>Database</h3>
+
+      </section>
+      <section>
+        <h3>Other</h3>
+
+      </section>
+
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <!-- TODO: update URL -->
+      <form action="https://www.to-be-fixed.com/" method="post">
+        <label for="name">Name</label>
+        <p><input type="text" id="name" name="name" placeholder="How should I address you?"></p>
+
+        <label for="email">Email</label>
+        <p><input type="email" id="email" name="email" placeholder="Which email works best for you?"></p>
+
+        <label for="message">Message</label>
+        <p><textarea id="message" name="message" rows="10" cols="50" placeholder="What might we talk about?"></textarea>
+        </p>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://github.com/anhngoq" target="_blank">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/anh-ngo-q/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </nav>
+    <h1>Hi, I'm Anh Ngo</h1>
+    <p>Software Engineer</p>
+    <a href="#contact"><button>Let's chat!</button></a>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <!-- TODO: add a real picture of myself -->
+      <img
+        src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairBigHair&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Happy&eyebrowType=Default&mouthType=Twinkle&skinColor=Light'>
+
+      <!-- TODO: add a more detailed introduction -->
+      <p>I'm a sophomore at Rose-Hulman Institute of Technology, majoring in Computer Science.</p>
+
+    </section>
+    <section id="experience">
+      <!-- TODO: add separate sections for key contributions, projects, and technology used -->
+      <!-- TODO: add a short summary of responsibilities -->
+      <h2>Experience</h2>
+      <section>
+        <h3>Research Assistant</h3>
+        <p>Rose-Hulman Institute of Technology</p>
+        <p>Terre Haute, IN</p>
+        <p>June 2024 - Present</p>
+        <ul>
+          <li>Collaborate with a Computer Science faculty to explore struggles that students face when
+            learning to code</li>
+          <li>Automate the capture of students’ JUnit test results, modularize code, and reduce coupling by
+            leveraging AspectJ aspect-oriented programming</li>
+          <li>Ensure consistent data collection by configuring GitHub Classroom repositories integration with
+            AspectJ</li>
+          <li>Analyze test results to provide actionable insights on students’ learning behavior</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Software Engineer Intern</h3>
+        <p>TAPTAP Vietnam</p>
+        <p>Ho Chi Minh City, Vietnam</p>
+        <p>June 2024 - August 2024</p>
+        <ul>
+          <li>Cooperated as a team of 3 in a startup offering cutting-edge loyalty solutions for businesses,
+            backed by Vietnam Investment Group, a private equity firm, and United Overseas Bank</li>
+          <li>Delivered 12 new features and addressed 7 bugs for internal tools across both the front end and
+            back end</li>
+          <li>Enhanced efficiency in managing end users, enabling faster action management operations through
+            responsive pages built with React, Nest.js, Node.js, and MongoDB</li>
+          <li>Secured sensitive data by preventing over 50 unauthorized access incidents over 1 month through
+            a role-based access control layer for user authorization</li>
+          <li>Integrated Telegram bots and cron jobs to alert critical events within 1 second, facilitating
+            fast responses to vouchers and top-ups redemption threshold breaches with alert frequency of 1
+            per hour</li>
+          <li>Facilitated decision-making and data clarity by visualizing and aggregating over 500 vouchers
+            and top-ups with trends over time with ApexCharts in dedicated interactive dashboard</li>
+        </ul>
+      </section>
+
+    </section>
+    <section id="projects">
+      <!-- TODO: add more projects, perhaps links to source code/deployment as well -->
+      <h2>Projects</h2>
+      <section>
+        <h3>Genetics Algorithm Visualization</h3>
+        <ul>
+          <li>Developed an evolution simulator to reproduce the result of “How Learning Can Guide Evolution”
+            by Hinton & Nowlan</li>
+          <li>Visualized a randomized population of 100 individuals’ real-time evolution data with a graphical
+            user interface</li>
+          <li>Ensured effective communication and efficient problem solving by proactively participating in
+            group discussions</li>
+          <li>Maximized code modularity and clarity by adhering to object-oriented design principles and pair
+            programming practice</li>
+        </ul>
+      </section>
+
+    </section>
+    <section id="skills">
+      <!-- TODO: fill out skills that I have -->
+      <h2>Skills</h2>
+      <section>
+        <h3>Programming Languages</h3>
+        <ul>
+          <li>Java</li>
+          <li>Python</li>
+          <li>C</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+
+      </section>
+      <section>
+        <h3>Frameworks and Libraries</h3>
+      </section>
+      <!-- <section>
+          <h3>Front End</h3>
+
+      </section>
+      <section>
+          <h3>Back End</h3>
+
+      </section> -->
+      <section>
+        <h3>Database</h3>
+
+      </section>
+      <section>
+        <h3>Other</h3>
+
+      </section>
+
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <!-- TODO: update URL -->
+      <form action="https://www.to-be-fixed.com/" method="post">
+        <label for="name">Name</label>
+        <p><input type="text" id="name" name="name" placeholder="How should I address you?"></p>
+
+        <label for="email">Email</label>
+        <p><input type="email" id="email" name="email" placeholder="Which email works best for you?"></p>
+
+        <label for="message">Message</label>
+        <p><textarea id="message" name="message" rows="10" cols="50" placeholder="What might we talk about?"></textarea>
+        </p>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
   <!-- <script>
     document.addEventListener('DOMContentLoaded', function () {
       const loadEl = document.querySelector('#load');
