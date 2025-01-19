@@ -48,7 +48,8 @@
     </nav>
     <h1>Hi, I'm Anh Ngo</h1>
     <!-- <p>Software Engineer</p> -->
-    <a href="#contact"><button>Let's chat!</button></a>
+    <div class="button-container"><a href="#contact"><button>Let's chat!</button></a></div>
+
   </header>
   <main>
     <section id="about-me">
@@ -193,17 +194,19 @@
       <h2>Contact</h2>
       <!-- TODO: update URL -->
       <form action="https://www.to-be-fixed.com/" method="post">
-        <label for="name">Name</label>
-        <p><input type="text" id="name" name="name" placeholder="How should I address you?"></p>
-
-        <label for="email">Email</label>
-        <p><input type="email" id="email" name="email" placeholder="Which email works best for you?"></p>
-
-        <label for="message">Message</label>
-        <p><textarea id="message" name="message" rows="10" cols="50" placeholder="What might we talk about?"></textarea>
+        <p><label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="How should I address you?">
         </p>
 
-        <input type="submit" value="Submit">
+        <p><label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Which email works best for you?">
+        </p>
+
+        <p><label for="message">Message:</label>
+          <textarea id="message" name="message" rows="10" cols="50" placeholder="What might we talk about?"></textarea>
+        </p>
+
+        <p id="submit"><input type="submit" value="Submit"></p>
       </form>
     </section>
   </main>
