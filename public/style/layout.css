@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+}
+
+.experience-info {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-details {
+  margin: 10px;
+  width: 70%;
+  border-left: 2px solid #355e58;
+}
+
+/* .experience-title,
+.experience-location,
+.experience-date {
+  margin: 0px;
+} */
