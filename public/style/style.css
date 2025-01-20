@@ -77,6 +77,10 @@ form {
   text-align: center;
 }
 
+p {
+  margin: 16px;
+}
+
 input {
   border-radius: 3px;
   -webkit-border-radius: 3px;
