@@ -30,6 +30,7 @@
   <link rel="manifest" href="/site.webmanifest">
 
   <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/layout.css">
 </head>
 
 <body>
@@ -70,39 +71,48 @@
       <!-- TODO: add separate sections for key contributions, projects, and technology used -->
       <!-- TODO: add a short summary of responsibilities -->
       <h2>Experience</h2>
-      <section>
-        <h3>Research Assistant</h3>
-        <p>Rose-Hulman Institute of Technology</p>
-        <p>June 2024 - Present</p>
-        <ul>
-          <li>Collaborate with a Computer Science faculty to explore struggles that students face when
-            learning to code</li>
-          <li>Automate the capture of students’ JUnit test results, modularize code, and reduce coupling by
-            leveraging AspectJ aspect-oriented programming</li>
-          <li>Ensure consistent data collection by configuring GitHub Classroom repositories integration with
-            AspectJ</li>
-          <li>Analyze test results to provide actionable insights on students’ learning behavior</li>
-        </ul>
+      <section class="card">
+        <div class="experience-info">
+          <h3 class="experience-title">Research Assistant</h3><br>
+          <p class="experience-location">Rose-Hulman Institute of Technology</p><br>
+          <p class="experience-date">June 2024 - Present</p><br>
+        </div>
+        <div class="experience-details">
+          <ul>
+            <li>Collaborate with a Computer Science faculty to explore struggles that students face when
+              learning to code</li>
+            <li>Automate the capture of students’ JUnit test results, modularize code, and reduce coupling by
+              leveraging AspectJ aspect-oriented programming</li>
+            <li>Ensure consistent data collection by configuring GitHub Classroom repositories integration with
+              AspectJ</li>
+            <li>Analyze test results to provide actionable insights on students’ learning behavior</li>
+          </ul>
+        </div>
+
       </section>
-      <section>
-        <h3>Software Engineer Intern</h3>
-        <p>TAPTAP Vietnam</p>
-        <p>June 2024 - August 2024</p>
-        <ul>
-          <li>Cooperated as a team of 3 in a startup offering cutting-edge loyalty solutions for businesses,
-            backed by Vietnam Investment Group, a private equity firm, and United Overseas Bank</li>
-          <li>Delivered 12 new features and addressed 7 bugs for internal tools across both the front end and
-            back end</li>
-          <li>Enhanced efficiency in managing end users, enabling faster action management operations through
-            responsive pages built with React, Nest.js, Node.js, and MongoDB</li>
-          <li>Secured sensitive data by preventing over 50 unauthorized access incidents over 1 month through
-            a role-based access control layer for user authorization</li>
-          <li>Integrated Telegram bots and cron jobs to alert critical events within 1 second, facilitating
-            fast responses to vouchers and top-ups redemption threshold breaches with alert frequency of 1
-            per hour</li>
-          <li>Facilitated decision-making and data clarity by visualizing and aggregating over 500 vouchers
-            and top-ups with trends over time with ApexCharts in dedicated interactive dashboard</li>
-        </ul>
+      <section class="card">
+        <div>
+          <h3 class="experience-info">Software Engineer Intern</h3>
+          <p class="experience-title">TAPTAP Vietnam</p>
+          <p class="experience-location">June 2024 - August 2024</p>
+        </div>
+        <div class="experience-details">
+          <ul>
+            <li>Cooperated as a team of 3 in a startup offering cutting-edge loyalty solutions for businesses,
+              backed by Vietnam Investment Group, a private equity firm, and United Overseas Bank</li>
+            <li>Delivered 12 new features and addressed 7 bugs for internal tools across both the front end and
+              back end</li>
+            <li>Enhanced efficiency in managing end users, enabling faster action management operations through
+              responsive pages built with React, Nest.js, Node.js, and MongoDB</li>
+            <li>Secured sensitive data by preventing over 50 unauthorized access incidents over 1 month through
+              a role-based access control layer for user authorization</li>
+            <li>Integrated Telegram bots and cron jobs to alert critical events within 1 second, facilitating
+              fast responses to vouchers and top-ups redemption threshold breaches with alert frequency of 1
+              per hour</li>
+            <li>Facilitated decision-making and data clarity by visualizing and aggregating over 500 vouchers
+              and top-ups with trends over time with ApexCharts in dedicated interactive dashboard</li>
+          </ul>
+        </div>
       </section>
 
     </section>
@@ -202,8 +212,8 @@
           <input type="email" id="email" name="email" placeholder="Which email works best for you?">
         </p>
 
-        <p><label for="message">Message:</label>
-          <textarea id="message" name="message" rows="10" cols="50" placeholder="What might we talk about?"></textarea>
+        <p><label for="message">Message:</label></p>
+        <p><textarea id="message" name="message" rows="10" cols="50" placeholder="What might we talk about?"></textarea>
         </p>
 
         <p id="submit"><input type="submit" value="Submit"></p>
